@@ -1,7 +1,8 @@
-﻿  SearchUSA.cpp
-d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(118): warning C4018: '<': signed/unsigned mismatch
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignment2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SearchUSA.cpp
+d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(93): warning C4018: '<': signed/unsigned mismatch
+d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(117): warning C4018: '<': signed/unsigned mismatch
 d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(142): warning C4018: '<': signed/unsigned mismatch
-d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(167): warning C4018: '<': signed/unsigned mismatch
 d:\ncsu\ai\assignment2\assignment2\graph.h(56): warning C4715: 'Graph::GetNode': not all control paths return a value
-  Assignment2.vcxproj -> D:\NCSU\AI\Assignment2\Debug\Assignment2.exe
-  Assignment2.vcxproj -> D:\NCSU\AI\Assignment2\Debug\Assignment2.pdb (Full PDB)
+  Assignment2.vcxproj -> D:\NCSU\AI\Assignment2\Debug\Path-Search.exe
+  Assignment2.vcxproj -> D:\NCSU\AI\Assignment2\Debug\Path-Search.pdb (Full PDB)

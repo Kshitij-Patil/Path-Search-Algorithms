@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
 	string line;
 	Graph USGraph;
 
-	ifstream myfile("usroads.pl");
+	ifstream myfile("../usroads.pl");
 	if (myfile.is_open())
 	{
 		int found_node = -1;
@@ -74,28 +74,6 @@ int main(int argc, char* argv[])
 	string source = argv[2];
 	string destination = argv[3];
 	
-	
-	/*
-	for (Node node1 : USGraph.NodeList)
-	{
-		for (Node node2 : USGraph.NodeList)
-		{
-
-			if (node1.Name.compare(node2.Name) != 0)
-			{
-				AStar a(USGraph, node1.Name, node2.Name);
-				Uniform g(USGraph, node1.Name, node2.Name);
-				a.ExecutePathSearchAlgorithm();
-				g.ExecutePathSearchAlgorithm();
-				if (a.SolutionPath.size() < g.SolutionPath.size())
-				{
-					cout << node1.Name << " " << node2.Name << "\n";
-					break;
-				}
-			}
-		}
-	}
-	*/
 	
 	if (search_type.compare("astar") == 0)
 	{
