@@ -1,0 +1,7 @@
+﻿  SearchUSA.cpp
+d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(118): warning C4018: '<': signed/unsigned mismatch
+d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(142): warning C4018: '<': signed/unsigned mismatch
+d:\ncsu\ai\assignment2\assignment2\searchusa.cpp(167): warning C4018: '<': signed/unsigned mismatch
+d:\ncsu\ai\assignment2\assignment2\graph.h(56): warning C4715: 'Graph::GetNode': not all control paths return a value
+  Assignment2.vcxproj -> D:\NCSU\AI\Assignment2\Debug\Assignment2.exe
+  Assignment2.vcxproj -> D:\NCSU\AI\Assignment2\Debug\Assignment2.pdb (Full PDB)
